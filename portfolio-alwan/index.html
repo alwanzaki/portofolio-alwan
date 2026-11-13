@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alwan Naufal Zaki | Frontend Web Developer</title>
+  <meta name="description" content="Portofolio Alwan Naufal Zaki, mahasiswa Informatika Universitas PGRI Semarang yang mencari magang sebagai fullstack web developer.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a1b34'/%3E%3Ctext x='32' y='42' font-family='Arial' font-weight='800' font-size='28' text-anchor='middle' fill='%234af0c4'%3EA%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wadah topbar-isi">
+    <a class="logo" href="#atas">ANZ<span>.</span></a>
+    <nav id="menu" class="menu" aria-label="Menu utama">
+      <a href="#tentang">Tentang</a>
+      <a href="#keahlian">Keahlian</a>
+      <a href="#proyek">Proyek</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+    <button id="tombol-menu" class="menu-toggle" type="button" aria-label="Buka menu" aria-expanded="false" aria-controls="menu">&#9776;</button>
+  </div>
+</header>
+
+<main id="atas">
+
+  <section class="hero">
+    <div class="wadah hero-isi">
+      <div>
+        <p class="sapa"><i class="titik"></i>Halo, selamat datang di portofolio saya</p>
+        <h1>Alwan Naufal <span class="aksen">Zaki.</span></h1>
+        <p class="peran">Mahasiswa Informatika <b>|</b>Frontend Web Developer</p>
+        <p class="lead">Saya membangun aplikasi web dengan Html, Css, dan JavaScript, dan sedang mencari kesempatan magang untuk belajar dari proyek nyata dan berkontribusi di dalam tim.</p>
+        <div class="tombol-baris">
+          <a href="#proyek" class="btn btn-utama">Lihat Proyek</a>
+          <a href="cv.pdf" class="btn btn-garis" download>Unduh CV</a>
+          <a href="#kontak" class="btn btn-garis">Hubungi Saya</a>
+        </div>
+        <dl class="info-baris">
+          <div><dt>Pendidikan</dt><dd>Universitas PGRI Semarang</dd></div>
+          <div><dt>Program studi</dt><dd>Informatika</dd></div>
+        </dl>
+      </div>
+      <aside class="kartu-profil" aria-label="Ringkasan profil">
+        <div class="avatar">ANZ</div>
+        <h2>Alwan Naufal Zaki</h2>
+        <p class="redup">Mahasiswa Informatika</p>
+        <hr>
+        <p class="label">Status</p>
+        <p class="status"><i class="titik"></i>Terbuka untuk magang web development</p>
+        <p class="label">Fokus</p>
+        <p>Frontend Web Development</p>
+        <code class="baris-kode">const goal = "build useful things";</code>
+      </aside>
+    </div>
+  </section>
+
+  <section id="tentang">
+    <div class="wadah">
+      <p class="penanda">01 / Tentang saya</p>
+      <h2>Mengenal saya lebih dekat.</h2>
+      <div class="dua-kolom">
+        <p class="pembuka">Saya mahasiswa Informatika di Universitas PGRI Semarang yang tertarik pada pengembangan 
+          aplikasi web, dari tampilan sampai basis datanya.</p>
+        <div class="teks-baca">
+          <p>Saya senang mempelajari hal baru melalui praktik langsung, terutama dalam bidang pemrograman dan pengembangan aplikasi. 
+            Saya pernah mengerjakan proyek sistem pendukung keputusan untuk menentukan siswa berprestasi menggunakan metode SAW. 
+            Dalam proyek tersebut, saya mempelajari proses pengelolaan data, perhitungan, hingga menampilkan hasil perankingan.</p>
+          <p>Saat ini saya terus mengembangkan kemampuan di bidang pemrograman, khususnya JavaScript, 
+            serta mulai membiasakan diri menggunakan Git untuk mendukung proses pengembangan proyek.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="keahlian" class="bagian-alt">
+    <div class="wadah">
+      <p class="penanda">02 / Keahlian</p>
+      <h2>Teknologi yang saya pelajari.</h2>
+      <p class="sub">Urutannya dari yang paling sering saya pakai.</p>
+      <div class="grid-3" id="daftar-skill"></div>
+    </div>
+  </section>
+
+  <section id="proyek">
+    <div class="wadah">
+      <p class="penanda">03 / Proyek</p>
+      <h2>Beberapa hal yang pernah saya bangun.</h2>
+      <p class="sub">Proyek akademik dan latihan yang menjadi bagian dari proses belajar saya.</p>
+      <div class="grid-proyek" id="daftar-proyek"></div>
+    </div>
+  </section>
+
+  <section id="kontak">
+    <div class="wadah tengah">
+      <p class="penanda">04 / Kontak</p>
+      <h2>Mari terhubung.</h2>
+      <p class="sub">Terbuka untuk kesempatan magang dan diskusi seputar web development.</p>
+      <div class="tombol-baris tengah-baris" id="daftar-kontak"></div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wadah footer-isi">
+    <span>&copy; <span id="tahun"></span> Alwan Naufal Zaki</span>
+    <span>Dibuat dengan HTML, CSS &amp; JavaScript.</span>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
