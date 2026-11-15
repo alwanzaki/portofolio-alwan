@@ -1,11 +1,33 @@
 # Portofolio Alwan Naufal Zaki
 
-HTML, CSS, dan JavaScript tanpa framework.
+Selamat datang di repository portofolio saya!
 
-## Yang perlu diisi
-1. `js/script.js` bagian 1: email, GitHub, LinkedIn.
-2. `js/script.js` bagian 3: link `github` proyek, dan `gambar` (screenshot di folder `img/`).
-3. Taruh `cv.pdf` di folder ini (sejajar dengan `index.html`).
+Saya adalah mahasiswa Program Studi Informatika di Universitas PGRI Semarang yang memiliki ketertarikan pada bidang teknologi informasi, pemrograman, desain antarmuka, dan pengembangan sistem digital.
 
-## Struktur
-- `index.html`, `css/style.css`, `js/script.js`, `img/`
+## Tentang Saya
+
+Saya tertarik mempelajari dan mengembangkan teknologi, khususnya dalam pembuatan website dan aplikasi. Saya senang belajar melalui praktik langsung serta mencoba berbagai teknologi untuk meningkatkan kemampuan di bidang pemrograman.
+
+## Keahlian
+
+- HTML
+- CSS
+- JavaScript
+- Pengembangan Web
+- Desain Antarmuka (UI/UX)
+
+## Struktur Repository
+
+- `index.html` – Halaman utama portofolio.
+- `css/` – File stylesheet.
+- `js/` – File JavaScript.
+- `img/` – Gambar dan dokumentasi proyek.
+- `cv.pdf` – Curriculum Vitae.
+
+## Tujuan
+
+Menjadi seorang developer yang mampu menciptakan solusi digital yang bermanfaat, inovatif, dan mudah digunakan.
+
+---
+
+© 2026 Alwan Naufal Zaki
